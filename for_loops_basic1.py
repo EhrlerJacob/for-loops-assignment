@@ -18,9 +18,8 @@ coding_dojo()
 
 odd_total = 0 
 
-for i in range(0, 500000, 2):
-    odd_total = odd_total + i
-
+for i in range(0, 500001, 2):
+    sum += i
 print (odd_total)
 
 for i in range(2018,0,-4):
